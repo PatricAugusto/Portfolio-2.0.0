@@ -30,7 +30,7 @@ const Hero = () => {
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <div className="w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden border-2 border-cinza-escuro">
             <Image
-              src="/images/profile.jpg"
+              src="/perfilFrente.png"
               alt="Profile Picture"
               width={500}
               height={500}

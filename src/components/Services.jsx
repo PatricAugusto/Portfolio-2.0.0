@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLaptopCode, FaMobileAlt, FaCloud, FaDatabase, FaCogs } from 'react-icons/fa';
+import { FaLaptopCode, FaMobileAlt, FaCloud, FaDatabase, FaCogs, FaRobot } from 'react-icons/fa';
 
 const services = [
   {
@@ -11,6 +11,11 @@ const services = [
     name: 'Mobile Development',
     description: 'Desenvolvimento de aplicações móveis para iOS e Android com frameworks modernos.',
     icon: <FaMobileAlt />,
+  },
+  {
+    name: 'Criação de Agentes de IA',
+    description: 'Desenvolvimento e integração de agentes autônomos e assistentes de IA para automatizar tarefas e interações.',
+    icon: <FaRobot />,
   },
   {
     name: 'Cloud Services',

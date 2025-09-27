@@ -9,7 +9,7 @@ const About = () => {
         <div className="md:w-1/2 flex justify-center md:justify-start mb-8 md:mb-0">
           <div className="w-64 h-64 md:w-80 md:h-80 relative rounded-lg overflow-hidden border-2 border-cinza-medio">
             <Image
-              src="/images/about-me.jpg" // Você pode usar outra imagem aqui
+              src="/perfilLado.jpg" 
               alt="About Me"
               layout="fill"
               objectFit="cover"
