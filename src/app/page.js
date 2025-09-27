@@ -6,12 +6,13 @@ import Projects from '../components/Projects';
 import Services from '../components/Services';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import WhatsAppButton from '../components/WhatsAppButton'; 
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="bg-preto text-branco min-h-screen pt-24">
+      <main className="bg-preto text-branco pt-24">
         <Hero />
         <About />
         <Skills />
@@ -20,6 +21,7 @@ export default function Home() {
         <Contact />
         <Footer />
       </main>
+      <WhatsAppButton />
     </>
   );
 }
