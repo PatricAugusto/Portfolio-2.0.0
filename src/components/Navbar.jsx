@@ -31,14 +31,11 @@ const Navbar = () => {
 
         {/* Ícones de redes sociais */}
         <div className="flex space-x-4 text-xl">
-          <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-cinza-medio transition-colors duration-300">
+          <a href="https://github.com/PatricAugusto" target="_blank" rel="noopener noreferrer" className="hover:text-cinza-medio transition-colors duration-300">
             <FaLinkedin />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-cinza-medio transition-colors duration-300">
+          <a href="https://www.linkedin.com/in/patric-augusto-bab47b240/" target="_blank" rel="noopener noreferrer" className="hover:text-cinza-medio transition-colors duration-300">
             <FaGithub />
-          </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-cinza-medio transition-colors duration-300">
-            <FaTwitter />
           </a>
         </div>
       </div>

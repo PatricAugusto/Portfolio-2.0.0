@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const About = () => {
   return (
-     <section id="about" className="py-16 bg-preto text-branco">
+     <section id="about" className="py-16 bg-preto text-branco" data-aos="fade-up">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between p-8">
         {/* Lado Esquerdo - Imagem */}
         <div className="md:w-1/2 flex justify-center md:justify-start mb-8 md:mb-0">
