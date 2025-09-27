@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <section id="hero" className="flex items-center justify-center min-h-screen pt-16 bg-preto text-branco">
+    <section id="hero" className="flex items-center justify-center min-h-[85vh] bg-preto text-branco">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between p-8">
         {/* Lado Esquerdo - Texto */}
         <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">

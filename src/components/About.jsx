@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-preto text-branco">
+     <section id="about" className="py-16 bg-preto text-branco">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between p-8">
         {/* Lado Esquerdo - Imagem */}
         <div className="md:w-1/2 flex justify-center md:justify-start mb-8 md:mb-0">
@@ -22,10 +22,10 @@ const About = () => {
         <div className="md:w-1/2 text-center md:text-left">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
           <h3 className="text-xl md:text-2xl font-light text-cinza-medio mb-6">
-            Designing Is My Passion
+            Solving problems is my passion.
           </h3>
           <p className="text-lg text-cinza-escuro leading-relaxed mb-6">
-            Desenvolvedor Full Stack com paixão por transformar ideias complexas em soluções digitais elegantes e eficientes. Com experiência em criar aplicações robustas e escaláveis, meu foco está em entregar código limpo, otimizado e focado na experiência do usuário. Estou sempre buscando aprender e me adaptar às novas tecnologias para construir produtos que realmente fazem a diferença.
+            I'm a full-stack developer with a passion for transforming complex ideas into elegant and efficient digital solutions. With experience building robust and scalable applications, I focus on delivering clean, optimized code focused on user experience. I'm always seeking to learn and adapt to new technologies to build products that truly make a difference.
           </p>
           <a
             href="#" // Substitua pelo link real do seu CV

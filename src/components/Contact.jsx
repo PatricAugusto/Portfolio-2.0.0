@@ -10,18 +10,25 @@ const Contact = () => {
           Got a project in mind? Let's chat and bring your ideas to life.
         </p>
 
-        <form className="flex flex-col space-y-4">
+        <form 
+          action="https://formspree.io/f/xdkwallo" 
+          method="POST" 
+          className="flex flex-col space-y-4"
+        >
           <input 
             type="text" 
+            name="name" 
             placeholder="Your Name" 
             className="p-4 rounded-lg bg-gray-800 text-branco border-2 border-cinza-escuro focus:outline-none focus:border-cinza-medio transition-colors duration-300"
           />
           <input 
             type="email" 
+            name="_replyto" 
             placeholder="Your Email" 
             className="p-4 rounded-lg bg-gray-800 text-branco border-2 border-cinza-escuro focus:outline-none focus:border-cinza-medio transition-colors duration-300"
           />
           <textarea
+            name="message" 
             placeholder="Your Message"
             rows="6"
             className="p-4 rounded-lg bg-gray-800 text-branco border-2 border-cinza-escuro focus:outline-none focus:border-cinza-medio transition-colors duration-300"

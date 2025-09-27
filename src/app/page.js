@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="bg-preto text-branco pt-24">
+      <main className="bg-preto text-branco pt-16">
         <Hero />
         <About />
         <Skills />
