@@ -28,8 +28,8 @@ const About = () => {
             I'm a full-stack developer with a passion for transforming complex ideas into elegant and efficient digital solutions. With experience building robust and scalable applications, I focus on delivering clean, optimized code focused on user experience. I'm always seeking to learn and adapt to new technologies to build products that truly make a difference.
           </p>
           <a
-            href="#" // Substitua pelo link real do seu CV
-            className="px-6 py-3 bg-branco text-preto font-bold rounded-lg hover:bg-cinza-claro transition-colors duration-300 inline-block"
+            href="https://1drv.ms/b/c/07a0895baf31c4f6/ESaDENCfX8lJrx8SAF6vpVMB_05uOtXQ1b_AVkCEZjhkTQ?e=5S1X8q" 
+            className="px-6 py-3 bg-branco text-preto font-bold rounded-lg hover:bg-cinza-claro transition-colors duration-300 inline-block" target="_blank"
           >
             Download CV
           </a>

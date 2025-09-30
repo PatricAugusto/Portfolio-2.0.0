@@ -17,7 +17,7 @@ const Hero = () => {
             Passionate about building beautiful and functional web applications.
           </p>
           <div className="mt-8 flex justify-center md:justify-start space-x-4">
-            <a href="#" className="px-6 py-3 bg-branco text-preto font-bold rounded-lg hover:bg-cinza-claro transition-colors duration-300">
+            <a href="https://1drv.ms/b/c/07a0895baf31c4f6/ESaDENCfX8lJrx8SAF6vpVMB_05uOtXQ1b_AVkCEZjhkTQ?e=5S1X8q" className="px-6 py-3 bg-branco text-preto font-bold rounded-lg hover:bg-cinza-claro transition-colors duration-300" target="_blank">
               Download CV
             </a>
             <a href="#contact" className="px-6 py-3 border-2 border-branco text-branco font-bold rounded-lg hover:bg-cinza-escuro transition-colors duration-300">
