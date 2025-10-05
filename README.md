@@ -1,6 +1,6 @@
 # 📄 Documentação Técnica do Portfólio Profissional
 
-Este documento detalha a estrutura, tecnologias e funcionalidades do seu portfólio profissional desenvolvido em Next.js e Tailwind CSS.
+Este documento detalha a estrutura, tecnologias e funcionalidades do meu portfólio profissional desenvolvido em Next.js e Tailwind CSS.
 
 ---
 
@@ -26,8 +26,8 @@ Este é um template de portfólio moderno e otimizado, desenvolvido para ser est
 | **Botão Flutuante** | Botão de WhatsApp fixo no canto inferior direito (`fixed`), garantindo contato rápido em qualquer seção. | `WhatsAppButton.jsx`, `app/page.jsx` |
 | **Animações de Rolagem** | Integração da biblioteca **AOS** para que as seções apareçam com efeitos sutis (`fade-up`, `fade-down`) ao entrar na viewport. | `app/layout.jsx` |
 | **Seção de Habilidades** | Layout em **Grid Responsivo** (`grid-cols-2`, `sm:grid-cols-3`, etc.), substituindo o carrossel. | `Skills.jsx` |
-| **Metadados (SEO)** | Título profissional e Favicon customizado (ícone do React Icons) configurados corretamente. | `app/head.jsx`, `app/icon.js` |
-| **Links de Download** | Botões de CV implementados com o atributo `download`, forçando o download de um link externo. | `Hero.jsx`, `[Seu Outro Componente]` |
+| **Metadados (SEO)** | Título profissional configurado corretamente. | `app/head.jsx` |
+| **Links de Download** | Botões de CV implementados com o atributo `download`, forçando o download de um link externo. | `Hero.jsx` |
 
 ---
 
@@ -38,7 +38,6 @@ Este é um template de portfólio moderno e otimizado, desenvolvido para ser est
 | `src/app/page.jsx` | Componente principal que orquestra todas as seções do portfólio. |
 | `src/app/layout.jsx` | Layout base da aplicação, responsável pela inicialização do **AOS**. |
 | `src/app/head.jsx` | Exporta o objeto `metadata` (título e descrição para SEO). |
-| `src/app/icon.js` | Componente para o **Favicon** customizado. |
 | `src/components/` | Contém todos os componentes de seção (`Hero`, `About`, `Skills`, etc.). |
 | `tailwind.config.js` | Arquivo de configuração do Tailwind CSS (cores e utilitários). |
 

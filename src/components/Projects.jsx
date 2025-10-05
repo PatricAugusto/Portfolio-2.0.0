@@ -4,12 +4,12 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const projects = [
   {
-    title: 'Sistema de Autenticação',
-    description: 'Este projeto é um sistema de autenticação robusto, desenvolvido com React, Vite e Styled Components. Ele inclui funcionalidades de registro e login, com validação de formulários, navegação entre as telas e proteção de rotas simuladas.',
-    technologies: ['React', 'Vite', 'Styled Components', 'React Router DOM'],
-    image: '/SistemaDeAutenticacao.png',
-    githubLink: 'https://github.com/PatricAugusto/Sistema-de-autenticacao/tree/main',
-    liveLink: 'https://sistema-de-autenticacao-wine.vercel.app/',
+    title: 'O Corte Perfeito',
+    description: 'website oficial da Barbearia Premium, refletindo digitalmente a experiência impecável e a excelência no corte.',
+    technologies: ['React', 'Vite', 'TypeScript', 'shadcn/ui', 'Tailwind CSS'],
+    image: '/CortePerfeito.jpeg',
+    githubLink: 'https://github.com/PatricAugusto/barber-glass-neo',
+    liveLink: 'https://barber-glass-neo.vercel.app/',
   },
   {
     title: 'Dashboard de Análise',
