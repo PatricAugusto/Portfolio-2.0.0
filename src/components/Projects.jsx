@@ -20,12 +20,12 @@ const projects = [
     liveLink: 'https://dashboard-interativo-com-graficos.vercel.app/',
   },
   {
-    title: 'Gerenciador de Tarefas e Foco Temporal',
-    description: 'O ChronoSynth é um gerenciador de tarefas minimalista e futurista, projetado para ajudá-lo a manter o foco em suas atividades. Inspirado na estética cyberpunk , ele oferece um ambiente imersivo para gerenciar suas tarefas diárias',
-    technologies: ['React', 'Zustand', 'CSS'],
-    image: '/Gerenciador.png',
-    githubLink: 'https://github.com/PatricAugusto/ChronoSynth-Gerenciador-de-Tarefas-e-Foco-Temporal/tree/main',
-    liveLink: 'https://chrono-synth-gerenciador-de-tarefas.vercel.app/',
+    title: 'Smart Routine Sync',
+    description: 'Uma solução moderna e eficiente projetada para unificar e automatizar o gerenciamento de rotinas, tarefas e eventos do usuário em um único painel.',
+    technologies: ['React', '	TypeScript', 'Vite', 'shadcn-ui', 'Tailwind CSS', 'Node.js / Express'],
+    image: '/SmartRoutine.jpeg',
+    githubLink: 'https://github.com/PatricAugusto/smart-routine-sync',
+    liveLink: 'https://smart-routine-sync.vercel.app/',
   },
 ];
 
